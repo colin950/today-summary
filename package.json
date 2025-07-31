@@ -1,0 +1,16 @@
+{
+  "name": "news-summary-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "cli": "pnpm --filter news-cli dev"
+}
+}

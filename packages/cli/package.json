@@ -1,0 +1,21 @@
+{
+  "name": "news-cli",
+  "version": "0.0.1",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node --esm src/main.ts"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.66",
+    "@langchain/groq": "^0.2.3",
+    "@langchain/openai": "^0.6.3",
+    "@langchain/tavily": "^0.1.4",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.1",
+    "langchain": "^0.3.30",
+    "zod": "^4.0.14"
+  }
+}
