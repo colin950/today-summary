@@ -1,3 +1,8 @@
+[In progress...]
+- daily schedule briefing app
+  - google calender
+  - news on topics of interest
+  - ...
 
 # 📦 Packages Overview
 - langchain + tavily(search api)
@@ -23,3 +28,8 @@ npm run cli
 ```bash
 pnpm add packageName --filter news-cli
 ```
+
+
+### [Summary Test Image]
+
+![Test Image](resource/test.png)
