@@ -24,6 +24,13 @@
 npm run cli   
 ```
 
+## news-frontend
+- news summary frontend
+### run server
+```bash
+npm run frontend   
+```
+
 # how to add npm packages?
 ```bash
 pnpm add packageName --filter news-cli
@@ -31,5 +38,8 @@ pnpm add packageName --filter news-cli
 
 
 ### [Summary Test Image]
-
+25.07.31 - langchain test
 ![Test Image](resource/test.png)
+
+25.08.05 - frontend ui test
+![Test Image](resource/test2.png)

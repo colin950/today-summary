@@ -11,6 +11,15 @@
     "typescript": "^5.8.3"
   },
   "scripts": {
-    "cli": "pnpm --filter news-cli dev"
-}
+    "cli": "pnpm --filter news-cli dev",
+    "frontend": "pnpm --filter news-frontend dev"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.66",
+    "@langchain/groq": "^0.2.3",
+    "@langchain/openai": "^0.6.3",
+    "@langchain/tavily": "^0.1.4",
+    "langchain": "^0.3.30"
+  }
 }
